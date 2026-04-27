@@ -10,6 +10,12 @@ Develop a comprehensive report for the following exercises:
 
 # Algorithm: 
 ### Step 1: Define Scope and Objectives
+Experiment:
+Develop a comprehensive report for the following exercises:
+1.	Explain the foundational concepts of Generative AI. 
+2.	Focusing on Generative AI architectures. (like transformers).
+3.	Generative AI applications.
+4.	Generative AI impact of scaling in LLMs.
 1.1 Identify the goal of the report (e.g., educational, research, tech overview) <br>
 1.2 Set the target audience level (e.g., students, professionals)<br>
 1.3 Draft a list of core topics to cover<br>
@@ -61,6 +67,16 @@ Step 7: Finalize and Export
 
 
 # Output
+What generative AI is
+You’ve probably heard of AI (Artificial Intelligence) -
 
+“Field of study that gives computers the ability to learn without being explicitly programmed“.
+
+Well-generative AI can be described as a subfield of AI that focuses on creating new content, (ChatGPT, Perplexity), images (Midjourney, getimg), audio, and synthetic data (datasets that imitate real-world data but are artificially generated), using deep learning algorithms.
+
+Let’s break it down from the top to the bottom:
+
+Artificial Intelligence (AI) refers to the field of computer science that focuses on creating machines capable of performing tasks that typically require human intelligence.
+Machine Learning (ML) is a subset of AI that involves algorithms and statistical models that enable computers to improve their performance on a task through experience
 
 # Result
