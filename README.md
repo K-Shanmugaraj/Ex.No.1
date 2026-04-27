@@ -9,7 +9,7 @@ Develop a comprehensive report for the following exercises:
 4.	Generative AI impact of scaling in LLMs.
 
 # Algorithm: Step 1: Define Scope and Objectives
-1.1 Identify the goal of the report (e.g., educational, research, tech overview)
+1.1 Identify the goal of the report (e.g., educational, research, tech overview) <br>
 1.2 Set the target audience level (e.g., students, professionals)
 1.3 Draft a list of core topics to cover
 Step 2: Create Report Skeleton/Structure
