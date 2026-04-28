@@ -139,7 +139,10 @@ Generative AI has **multi-domain applications**:
 | Security | Synthetic data generation for testing, anomaly detection |
 
 ---
+## 4. Generative AI impact of scaling in LLMs.
+Scaling laws for neural language models explain how performance improves with increased model size, data, and computational resources. Explore neural language scaling laws, their users, and their importance when developing and deploying AI technology.
 
+---
 ## 5. Explain about LLM and how it is build.
 
 Large language models (LLMs) are a category of deep learning models trained on immense amounts of data, making them capable of understanding and generating natural language and other types of content to perform a wide range of tasks. LLMs are built on a type of neural network architecture called a transformer which excels at handling sequences of words and capturing patterns in text.
