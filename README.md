@@ -97,7 +97,7 @@ In RLHF, human users respond to generated content with evaluations the model can
 ### Generation, evaluation, more tuning
 Developers and users continually assess the outputs of their generative AI apps, and further tune the model even as often as once a week for greater accuracy or relevance. (In contrast, the foundation model itself is updated much less frequently, perhaps every year or 18 months.)
 Another option for improving a gen AI app's performance is retrieval augmented generation (RAG). RAG is a framework for extending the foundation model to use relevant sources outside of the training data, to supplement and refine the parameters or representations in the original model. RAG can ensure that a generative AI app always has access to the most current information. As a bonus, the additional sources accessed via RAG are transparent to users in a way that the knowledge in the original foundation model is not. 
-<img width="1536" height="851" alt="asd" src="https://github.com/user-attachments/assets/409dae03-b1de-47b5-b013-340b03ba5e00" />
+<img width="536" height="851" alt="asd" src="https://github.com/user-attachments/assets/409dae03-b1de-47b5-b013-340b03ba5e00" />
 
 
 ---
