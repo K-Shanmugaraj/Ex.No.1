@@ -60,7 +60,7 @@ Step 7: Finalize and Export
 
 
 # Output
-## Foundational Concepts of Generative AI
+## 1.     Explain the foundational concepts of Generative AI.
 ### What is generative AI?
 Generative AI, sometimes called gen AI, is artificial intelligence (AI) that can create original content such as text, images, video, audio or software code in response to a user’s prompt or request.
 Generative AI relies on sophisticated machine learning models called deep learning models algorithms that simulate the learning and decision-making processes of the human brain. These models work by identifying and encoding the patterns and relationships in huge amounts of data, and then using that information to understand users' natural language requests or questions and respond with relevant new content.
@@ -74,7 +74,7 @@ For the most part, generative AI operates in three phases:
 - **Tuning**, to tailor the foundation model to a specific gen AI application.
 
 - **Generation**, evaluation and retuning, to assess the gen AI application's output and continually improve its quality and accuracy.
-#### Training
+### Training
 Generative AI begins with a foundation model, a deep learning model that serves as the basis for multiple different types of generative AI applications. The most common foundation models today are large language models (LLMs), created for text generation applications, but there are also foundation models for image generation, video generation, and sound and music generation as well as multimodal foundation models that can support several kinds content generation.
 
 To create a foundation model, practitioners train a deep learning algorithm on huge volumes of raw, unstructured, unlabeled data e.g., terabytes of data culled from the internet or some other huge data source. During training, the algorithm performs and evaluates millions of ‘fill in the blank’ exercises, trying to predict the next element in a sequence e.g., the next word in a sentence, the next element in an image, the next command in a line of code and continually adjusting itself to minimize the difference between its predictions and the actual data (or ‘correct’ result).
@@ -83,18 +83,18 @@ The result of this training is a neural network of parameters, encoded represent
 
 This training process is compute-intensive, time-consuming and expensive: it requires thousands of clustered graphics processing units (GPUs) and weeks of processing, all of which costs millions of dollars. Open-source foundation model projects, such as Meta's Llama-2, enable gen AI developers to avoid this step and its costs.
 
-#### Tuning
+### Tuning
 Metaphorically speaking, a foundation model is a generalist: It knows a lot about a lot of types of content, but often can’t generate specific types of output with desired accuracy or fidelity. For that, the model must be tuned to a specific content generation task. This can be done in a variety of ways.
 
-##### Fine tuning
+### Fine tuning
 Fine tuning involves feeding the model labeled data specific to the content generation application questions or prompts the application is likely to receive, and corresponding correct answers in the desired format. For example, if a development team is trying to create a customer service chatbot, it would create hundreds or thousands of documents containing labeled customers service questions and correct answers, and then feed those documents to the model.
 
 Fine-tuning is labor-intensive. Developers often outsource the task to companies with large data-labeling workforces.
 
-##### Reinforcement learning with human feedback (RLHF)
+### Reinforcement learning with human feedback (RLHF)
 In RLHF, human users respond to generated content with evaluations the model can use to update the model for greater accuracy or relevance. Often, RLHF involves people ‘scoring’ different outputs in response to the same prompt. But it can be as simple as having people type or talk back to a chatbot or virtual assistant, correcting its output.
 
-#### Generation, evaluation, more tuning
+### Generation, evaluation, more tuning
 Developers and users continually assess the outputs of their generative AI apps, and further tune the model even as often as once a week for greater accuracy or relevance. (In contrast, the foundation model itself is updated much less frequently, perhaps every year or 18 months.)
 
 Another option for improving a gen AI app's performance is retrieval augmented generation (RAG). RAG is a framework for extending the foundation model to use relevant sources outside of the training data, to supplement and refine the parameters or representations in the original model. RAG can ensure that a generative AI app always has access to the most current information. As a bonus, the additional sources accessed via RAG are transparent to users in a way that the knowledge in the original foundation model is not.
