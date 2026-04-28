@@ -137,6 +137,8 @@ Generative AI has **multi-domain applications**:
 | Software Development | Code completion (GitHub Copilot), debugging |
 | Business | Marketing content, personalized recommendations |
 | Security | Synthetic data generation for testing, anomaly detection |
+<img width="1536" height="870" alt="4c84b24d-b589-4b2c-a9aa-65dd0a9bb36a" src="https://github.com/user-attachments/assets/28f89d55-5c29-4b53-900f-e4a0dcf43833" />
+
 
 ---
 ## 4. Generative AI impact of scaling in LLMs.
@@ -165,11 +167,16 @@ Training an AI model isn’t all that different from how you might train for a s
 
 ## 5. Explain about LLM and how it is build.
 
-Large language models (LLMs) are a category of deep learning models trained on immense amounts of data, making them capable of understanding and generating natural language and other types of content to perform a wide range of tasks. LLMs are built on a type of neural network architecture called a transformer which excels at handling sequences of words and capturing patterns in text.
-LLMs work as giant statistical prediction machines that repeatedly predict the next word in a sequence. They learn patterns in their text and generate language that follows those patterns.
-Training starts with a massive amount of data—billions or trillions of words from books, articles, websites, code and other text sources. Data scientists oversee cleaning and pre-processing to remove errors, duplication and undesirable content.
-This text is broken down into smaller, machine-readable units called ‘tokens,’ during a process of ‘tokenization.’ Tokens are smaller units such as words, subwords or characters.
-LLMs are initially trained with self-supervised learning, a machine learning technique that uses unlabeled data for supervised learning. Self-supervised learning doesn’t require labeled datasets, but it’s closely related to supervised learning in that it optimizes performance against a "ground truth." In self-supervised learning, tasks are designed such that ground truth can be inferred from unlabeled data. Instead of being told what the “correct output” is for each input, as in supervised learning, the model tries to find patterns, structures or relationships in the data on its own.
+A large language model (LLM) is a type of artificial intelligence (AI) program that can recognize and generate text, among other tasks. LLMs are trained on huge sets of data — hence the name "large." LLMs are built on machine learning: specifically, a type of neural network called a transformer model.
 
+In simpler terms, an LLM is a computer program that has been fed enough examples to be able to recognize and interpret human language or other types of complex data. Many LLMs are trained on data that has been gathered from the Internet — thousands or millions of gigabytes' worth of text. Some LLMs continue to crawl the web for more content after they are initially trained. But the quality of the samples impacts how well LLMs will learn natural language, so an LLM's programmers may use a more curated data set, at least at first.
+
+LLMs use a type of machine learning called deep learning in order to understand how characters, words, and sentences function together. Deep learning involves the probabilistic analysis of unstructured data, which eventually enables the deep learning model to recognize distinctions between pieces of content without human intervention.
+
+LLMs are then further trained via tuning: they are fine-tuned or prompt-tuned to the particular task that the programmer wants them to do, such as interpreting questions and generating responses, or translating text from one language to another.
+
+To build LLM applications, developers need easy access to multiple data sets, and they need places for those data sets to live. Both cloud storage and on-premises storage for these purposes may involve infrastructure investments outside the reach of developers' budgets. Additionally, training data sets are typically stored in multiple places, but moving that data to a central location may result in massive egress fees.
+
+Fortunately, Cloudflare offers several services to allow developers to quickly start spinning up LLM applications, and other types of AI. Vectorize is a globally distributed vector database for querying data stored in no-egress-fee object storage (R2) or documents stored in Workers Key Value. Combined with the development platform Cloudflare Workers AI, developers can use Cloudflare to quickly start experimenting with their own LLMs.
 
 # Result
