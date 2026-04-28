@@ -123,6 +123,7 @@ Being well-suited to parallelism enables transformer models to take full advanta
 Especially for visual data, transformers also offer some advantages over convolutional neural networks. CNNs are inherently local, using convolutions to process smaller subsets of input data one piece at a time.
 
 Therefore, CNNs also struggle to discern long-range dependencies, such as correlations between words (in text) or pixels (in images) that aren’t neighboring one another. Attention mechanisms don’t have this limitation.
+<img width="1478" height="967" alt="wsx" src="https://github.com/user-attachments/assets/194b40df-42d0-4f68-a28c-689e7155e3c8" />
 
 ---
 ## 3. Applications of Generative AI
