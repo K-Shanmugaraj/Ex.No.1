@@ -97,7 +97,7 @@ In RLHF, human users respond to generated content with evaluations the model can
 ### Generation, evaluation, more tuning
 Developers and users continually assess the outputs of their generative AI apps, and further tune the model even as often as once a week for greater accuracy or relevance. (In contrast, the foundation model itself is updated much less frequently, perhaps every year or 18 months.)
 Another option for improving a gen AI app's performance is retrieval augmented generation (RAG). RAG is a framework for extending the foundation model to use relevant sources outside of the training data, to supplement and refine the parameters or representations in the original model. RAG can ensure that a generative AI app always has access to the most current information. As a bonus, the additional sources accessed via RAG are transparent to users in a way that the knowledge in the original foundation model is not. 
-<img width="536" height="851" alt="asd" src="https://github.com/user-attachments/assets/409dae03-b1de-47b5-b013-340b03ba5e00" />
+<img width="700" height="401" alt="asd" src="https://github.com/user-attachments/assets/409dae03-b1de-47b5-b013-340b03ba5e00" />
 
 
 ---
@@ -123,7 +123,7 @@ Being well-suited to parallelism enables transformer models to take full advanta
 Especially for visual data, transformers also offer some advantages over convolutional neural networks. CNNs are inherently local, using convolutions to process smaller subsets of input data one piece at a time.
 
 Therefore, CNNs also struggle to discern long-range dependencies, such as correlations between words (in text) or pixels (in images) that aren’t neighboring one another. Attention mechanisms don’t have this limitation.
-<img width="1478" height="967" alt="wsx" src="https://github.com/user-attachments/assets/194b40df-42d0-4f68-a28c-689e7155e3c8" />
+<img width="714" height="425" alt="wsx" src="https://github.com/user-attachments/assets/194b40df-42d0-4f68-a28c-689e7155e3c8" />
 
 ---
 ## 3. Applications of Generative AI
@@ -137,14 +137,12 @@ Generative AI has **multi-domain applications**:
 | Software Development | Code completion (GitHub Copilot), debugging |
 | Business | Marketing content, personalized recommendations |
 | Security | Synthetic data generation for testing, anomaly detection |
-<img width="1536" height="870" alt="4c84b24d-b589-4b2c-a9aa-65dd0a9bb36a" src="https://github.com/user-attachments/assets/28f89d55-5c29-4b53-900f-e4a0dcf43833" />
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/8f4c55c7-7a2c-48c7-9f57-afb3e1b4b7ff" />
 
 
 ---
 ## 4. Generative AI impact of scaling in LLMs.
-Scaling laws for neural language models explain how performance improves with increased model size, data, and computational resources. Explore neural language scaling laws, their users, and their importance when developing and deploying AI technology.
-Scaling laws create a framework that helps you understand how increasing resources, such as model size or training data, will impact the performance of your artificial intelligence (AI) systems. Neural language models are a type of AI that helps machines understand language and communicate. Scaling these models through data or power can often improve their accuracy.
-While common sense may tell you that larger models with more training are increasingly likely to perform better, scaling laws provide a mathematical backing to this claim. By understanding these laws, you can gain insights into how to optimize your resources to build more capable and efficient AI models. This helps you to develop more advanced neural language systems and how best to apply them in different contexts.
+Scaling laws in AI refer to how model performance improves with increasing amounts of data, model size (parameters), and compute. Key Impacts of Scaling in LLMs: Improved Performance: Larger models generally demonstrate better language understanding, generation capabilities, and adaptability across tasks. Emergent Abilities: As models scale, they exhibit unexpected capabilities, such as zero-shot and few-shot learning, enabling them to perform tasks with little or no task-specific training. Increased Context Length: Larger LLMs can process longer contexts, improving coherence and relevance in generated content. Resource Intensiveness: Scaling requires significant computational resources for training and inference, raising concerns about environmental impact and accessibility. Bias and Safety: Bigger models can amplify biases present in training data and generate harmful content if not carefully managed. Fine-Tuning and Adaptation: Larger models provide a robust foundation for fine-tuning, transfer learning, and building specialized applications.
 ### Model size scaling
 When you scale your AI model, you increase the number of parameters in your neural network. You can think of parameters like dials and knobs that your model adjusts to refine its algorithm until the outputs are the most accurate. Larger models can typically learn more complex patterns, allowing them to understand and generate more accurate results. However, models that are too big might not have performance increases large enough to warrant the additional computational power.
 
@@ -178,5 +176,12 @@ LLMs are then further trained via tuning: they are fine-tuned or prompt-tuned to
 To build LLM applications, developers need easy access to multiple data sets, and they need places for those data sets to live. Both cloud storage and on-premises storage for these purposes may involve infrastructure investments outside the reach of developers' budgets. Additionally, training data sets are typically stored in multiple places, but moving that data to a central location may result in massive egress fees.
 
 Fortunately, Cloudflare offers several services to allow developers to quickly start spinning up LLM applications, and other types of AI. Vectorize is a globally distributed vector database for querying data stored in no-egress-fee object storage (R2) or documents stored in Workers Key Value. Combined with the development platform Cloudflare Workers AI, developers can use Cloudflare to quickly start experimenting with their own LLMs.
+<img width="793" height="429" alt="image" src="https://github.com/user-attachments/assets/0fa43939-c51e-4a88-9f92-070b3d57db73" />
+
 
 # Result
+This study covered the core aspects of Generative AI, beginning with its foundational concepts such as neural networks, deep learning, tokenization, embeddings, and probabilistic modeling. It further explored advanced Generative AI architectures, particularly transformer-based models, which enable efficient processing of sequential data through attention mechanisms.
+
+The discussion also examined how these architectures are applied in real-world scenarios, highlighting the versatility of Generative AI across domains such as healthcare, finance, education, and software development. In addition, the impact of scaling in Large Language Models (LLMs) was analyzed, showing how increases in data, model size, and computational resources improve performance and lead to emergent capabilities.
+
+Finally, the study provided insight into how LLMs are built, including stages like pretraining, fine-tuning, and alignment using human feedback. Overall, this work presents a comprehensive understanding of Generative AI, its underlying principles, architectures, applications, and its growing importance in modern technology.
